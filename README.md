@@ -1,2 +1,2 @@
-# RefactorReactor
-Rewriting code
+# 01-Homework
+Rewriting, editing, and improving some code.
