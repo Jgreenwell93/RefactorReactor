@@ -3,12 +3,13 @@
     padding: 0;
     margin: 0;
 }
-
+/*changes overall background color*/
 body {
     background-color: #d9dcd6;
 }
 
 /*removed class for header and semantic*/
+/*changes header color,font family, padding, and background color*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,17 +18,20 @@ header {
 }
 
 /*removed class for header and semantic*/
+/*puts the nav bar in line*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /*removed class for header and semantic*/
+/*changes nav bar header word color*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
 /*removed class for header and semantic*/
+/*positioning of header elements*/
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,7 +50,7 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*color of hyperlinks*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -55,7 +59,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/*sizing and positioning of main photo*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,24 +68,25 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*section element positioning*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*section element positioning*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 /*.section class changed to semantic*/
+/*section sizing and direction/shape*/
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*article positioning, padding, sizing, font family, background*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -140,7 +145,7 @@ section {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*article element positioning, padding, sizing, font family, background*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -149,7 +154,7 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*article element positioning, padding, sizing, font family, background*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -158,7 +163,7 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*article element positioning, padding, sizing, font family, background*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -167,35 +172,36 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*article element max height*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/*article element max height*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/*article element max height*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*article element font size/margin*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*article element font size/margin*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*article element font size/margin*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /*changed footer from class to semantic element*/
+/*footer alignment, font, positioning*/
 footer {
     padding: 30px;
     clear: both;
@@ -204,6 +210,7 @@ footer {
 }
 
 /*changed footer from class to semantic element*/
+/*footer font sizing*/
 footer h2 {
     font-size: 20px;
 }
